@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf /home/ubuntu/testcodedeploy/*
+rm -rf /home/ubuntu/demo-test/*
