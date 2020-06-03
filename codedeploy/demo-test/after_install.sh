@@ -2,7 +2,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 parentdir="$(dirname "$DIR")"
 sudo chown -R ubuntu:ubuntu testcodedeploy
-rm -rf /home/ubuntu/testcodedeploy/*
+sudo rm -rf /home/ubuntu/testcodedeploy/*
 mkdir -p /home/ubuntu/testcodedeploy/demo-test
 demopid=$(pgrep -f demo-test-0.0.1-SNAPSHOT.jar)
 kill -9 $demopid
