@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /revision.txt
+  - source: /
     destination: /home/ubuntu/testcodedeploy
 hooks:
   BeforeInstall:
